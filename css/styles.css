@@ -26,12 +26,8 @@ body{
 }
 svg{
 	fill: currentcolor;
-	width: 15px;
-	height: 15px;
-}
-img.svg{
-	width: 15px;
-	height: 15px;
+	width: 40px;
+	height: 40px;
 }
 
 .fondo{
@@ -297,6 +293,10 @@ body .wrapper .wrapper_inner .navbar .container div ul li a:hover{
 	font-size: 30px;
 }
 
+.flecha_clasica a :hover{
+	color: #ff214f;
+}
+
 
 /*---------------------------------------------------*/
 /*	04) SOBRE MI
@@ -408,14 +408,6 @@ body .wrapper .wrapper_inner .navbar .container div ul li a:hover{
 	        transition: all .3s ease;
 }
 .tema_sobre_mi .acerca_contact_wrap ul li a:hover{border-bottom-color: #000;}
-.tema_sobre_mi .acerca_contact_wrap ul li .svg{
-	position: absolute;
-	left: 0px;
-	top: 6px;
-	width: 17px;
-	height: 17px;
-	color: #ff214f;
-}
 .tema_sobre_mi .buttons{
 	width: 100%;
 	height: auto;
@@ -476,6 +468,14 @@ body .wrapper .wrapper_inner .navbar .container div ul li a:hover{
 	font-weight: 500;
 }
 
+.iconos_sobre_mi{
+	height: 20px;
+	width: 20px;
+	margin-right: 11px;	
+}
+
+
+
 /*---------------------------------------------------*/
 /*	05) SERVICIOS
 /*---------------------------------------------------*/
@@ -523,7 +523,8 @@ body .wrapper .wrapper_inner .navbar .container div ul li a:hover{
 	        transition: all .3s ease;
 }
 .tema_servicios .service_inner ul li .inner:hover{top: -3px;}
-.tema_servicios .service_inner ul li .inner .svg{
+
+ .servicios_icono{
 	width: 45px;
 	height: 45px;
 	color: #ff214f;
@@ -644,7 +645,7 @@ body .wrapper .wrapper_inner .navbar .container div ul li a:hover{
 	top: 64px;
 	line-height: 0;
 }
-.tema_testimonios .contenido_testimonios .content_inner .icon .svg{
+.icono_testimonio{
 	width: 70px;
 	height: 70px;
 	color: #FF5E5F;
@@ -834,10 +835,9 @@ body .wrapper .wrapper_inner .navbar .container div ul li a:hover{
 	background-color: #fff;
 	box-shadow: 0px 0px 20px rgba(0,0,0,.2);
 }
-.precios_tema .pricing_inner > ul > li > .inner .svg{
-	width: 45px;
-	height: 45px;
-	color: #ff214f;
+.iconos_precios{
+	width: 55px;
+	height: 55px;
 	margin-bottom: 10px;
 }
 .precios_tema .pricing_inner > ul > li > .inner .title{
@@ -855,7 +855,7 @@ body .wrapper .wrapper_inner .navbar .container div ul li a:hover{
 }
 .precios_tema .pricing_inner > ul > li > .inner ul li{margin: 0px;}
 .precios_tema .pricing_inner > ul > li.active > .inner{background-color: #ff214f;}
-.precios_tema .pricing_inner > ul > li.active > .inner .svg{color: #fff;}
+.iconos_precios{color: #fff;}
 .precios_tema .pricing_inner > ul > li.active > .inner .title{color: #fff;}
 .precios_tema .pricing_inner > ul > li.active > .inner .precio{color: #fff;}
 .precios_tema .pricing_inner > ul > li.active > .inner ul li p{color: #eee;}
@@ -1170,7 +1170,7 @@ body .wrapper .wrapper_inner .navbar .container div ul li a:hover{
 	width: 33.3333%;
 	padding-left: 50px;
 }
-.tema_contacto .short_list ul li .svg{
+.icono_contacto{
 	width: 25px;
 	height: 25px;
 	color: #ff214f;
